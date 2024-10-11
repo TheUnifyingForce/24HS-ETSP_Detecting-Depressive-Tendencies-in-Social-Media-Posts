@@ -16,7 +16,7 @@ def clean_text(text):
     text = re.sub(r'<.*?>', '', text)  # Remove HTML tags
     text = re.sub(r'[^\w\s]', '', text)  # Remove punctuation
     text = re.sub(r'\d+', '', text)  # Remove the numbers
-    text = ' '.join([word for word in text.split() if word not in ENGLISH_STOP_WORDS])  # 去除停用词
+    text = ' '.join([word for word in text.split() if word not in ENGLISH_STOP_WORDS])  # Remove stop words
     return text
 
 reddit_df['clean_text'] = reddit_df['clean_text'].apply(clean_text)
