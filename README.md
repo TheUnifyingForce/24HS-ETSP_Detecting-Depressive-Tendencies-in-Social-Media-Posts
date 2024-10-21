@@ -28,12 +28,11 @@ users or mental health professionals can input text for analysis.
 
 The dataset consists of social media posts annotated with binary labels indicating whether the post shows signs of depression (`1`) or not (`0`).
 
-### Sources:
+### Original datasets:
 - **Reddit Depression Dataset**: [Kaggle Dataset Link](https://www.kaggle.com/datasets/infamouscoder/depression-reddit-cleaned/data)
+- **Mental Health Corpus**: [Kaggle Dataset Link](https://www.kaggle.com/datasets/reihanenamdari/mental-health-corpus)
 
-### Files:
-- `depression_dataset_reddit_cleaned.csv`: Contains the Reddit posts with the `is_depression` label.
-- Preprocessed datasets:
+### Preprocessed datasets:
   - `train.csv`: Training data after preprocessing.
   - `dev.csv`: Validation data after preprocessing.
   - `test.csv`: Test data after preprocessing.
