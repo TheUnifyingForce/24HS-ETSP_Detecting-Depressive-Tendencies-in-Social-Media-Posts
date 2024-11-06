@@ -9,12 +9,6 @@ reddit_data_path = 'Original_Dataset/depression_dataset_reddit_cleaned.csv'
 reddit_df = pd.read_csv(reddit_data_path)
 reddit_df = reddit_df[['clean_text', 'is_depression']]
 
-mental_health_data_path = 'Original_Dataset/mental_health.csv'
-mental_health_df = pd.read_csv(mental_health_data_path)
-
-mental_health_df = mental_health_df.rename(columns={'text': 'clean_text', 'label': 'is_depression'})
-
-combined_df = pd.concat([reddit_df, mental_health_df], ignore_index=True)
 
 def clean_text(text):
     text = text.lower()  # Lowercase
