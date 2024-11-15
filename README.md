@@ -47,6 +47,7 @@ For the aimed task, we used two main transformer-based models, all based on RoBE
 a well-established model known for its high performance on NLP tasks. 
 
 The models are:
+
 • cardiffnlp/twitter-roberta-base-sentiment: Pretrained on a sentiment analysis task
 and designed for text classification.
 
