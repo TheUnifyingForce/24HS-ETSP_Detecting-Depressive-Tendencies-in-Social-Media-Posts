@@ -49,10 +49,13 @@ a well-established model known for its high performance on NLP tasks.
 The models are:
 • cardiffnlp/twitter-roberta-base-sentiment: Pretrained on a sentiment analysis task
 and designed for text classification.
+
 • Fine-tuned cardiffnlp/twitter-roberta-base-sentiment: Fine-tuned by us from
 cardiffnlp/twitter-roberta-base-sentiment.
+
 • FacebookAI/roberta-base: A general-purpose RoBERTa model trained on diverse
 text data.
+
 • Fine-tuned Facebookai/roberta-base: Fine-tuned by us from Facebookai/roberta-
 base.
 
