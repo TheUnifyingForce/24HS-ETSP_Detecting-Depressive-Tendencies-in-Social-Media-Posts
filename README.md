@@ -18,11 +18,11 @@ each performs in these domains and whether fine-tuning can enhance performance.
 
 ## Dataset
 
-The dataset consists of social media posts annotated with binary labels indicating whether the post shows signs of depression (`1`) or not (`0`).
+The datasets consist of social media posts annotated with labels indicating whether the post shows signs of depression or not.
 
 ### Original datasets:
-- **Reddit Depression Dataset**: [Kaggle Dataset Link](https://www.kaggle.com/datasets/infamouscoder/depression-reddit-cleaned/data)
-- **Detecting Signs of Depression from Social Media Posting**: [Dataset Link](https://github.com/Kayal-Sampath/detecting-signs-of-depression-from-social-media-postings)
+- **Reddit Depression Dataset**: [Kaggle Dataset Link](https://www.kaggle.com/datasets/infamouscoder/depression-reddit-cleaned/data), binary labels indicating whether the post shows signs of depression (`1`) or not (`0`).
+- **Detecting Signs of Depression from Social Media Posting**: [Dataset Link](https://github.com/Kayal-Sampath/detecting-signs-of-depression-from-social-media-postings), three classes labels indicating whether the post shows signs of severe depression (`0`), moderate (`1`) or not (`2`).
 
 ### Preprocessed datasets:
   - `train.csv`: Training data after preprocessing.
